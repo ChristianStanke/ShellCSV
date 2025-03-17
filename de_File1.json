@@ -1,0 +1,306 @@
+{
+  "common": {
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "remove": "Entfernen",
+    "edit": "Bearbeiten",
+    "back": "Zurück",
+    "submit": "Senden",
+    "continue": "Fortfahren",
+    "save": "Speichern",
+    "savechanges": "Änderungen speichern",
+    "done": "Fertig",
+    "home": "Startseite",
+    "date": "Datum",
+    "today": "Heute",
+    "latest": "Neueste",
+    "all": "Alle",
+    "print": "Drucken",
+    "download": "Herunterladen",
+    "dispute": "Streitigkeit",
+    "currency": "GBP",
+    "open": "Öffnen",
+    "moreinfo": "Weitere Informationen",
+    "lessinfo": "Weniger Informationen",
+    "clear": "Löschen",
+    "search": "Suchen",
+    "selectAll": "Alle auswählen",
+    "totalAmount": "Gesamtbetrag ({{currency}})",
+    "total": "Summe",
+    "downloadexcel": "Download (Excel)",
+    "downloadpdf": "Download (PDF)",
+    "viewprint": "Anzeigen/Drucken",
+    "view": "Anzeigen",
+    "apply": "Anwenden",
+    "pdf": "PDF",
+    "excel": "Excel",
+    "excell": "Excel",
+    "merge": "Als PDF zusammenführen",
+    "mergeFile": "Datei zusammenführen",
+    "preview": "Vorschau",
+    "filetypes": "Dateitypen",
+    "exportas": "Exportieren als",
+    "faqtitle": "Häufig gestellte Fragen",
+    "getstartedtitle": "Erste Schritte",
+    "knowledgebasetitle": "Wissensbasis",
+    "myservicerequest": "Meine Serviceanfrage",
+    "guidedtour": "Machen Sie eine Tour",
+    "welcometour": "Ihre Homepage",
+    "newfeatures": "Entdecken",
+    "newsmhfeatures": "Sehen Sie, was neu ist",
+    "part_number": "Teilenummer",
+    "not_provided": "Nicht bereitgestellt",
+    "downloadAs": "Download als",
+    "myssodistributor": "Vertriebspartner-SSO",
+    "counts": "({{count}})",
+    "products": "Produkte",
+    "downloadDeliveryTicket": "Lieferschein herunterladen",
+    "orderDetailsPDF": "Bestelldetails (PDF)",
+    "orderDetailsExcel": "Bestelldetails (Excel)",
+    "deliveryTicketPDF": "Lieferschein (PDF)",
+    "sdaLink": "Akademie für kommerzielle Brennstoffe"
+  },
+  "pageMetaResolver": {
+    "category": {
+      "title_one": "{{count}} Ergebnis für {{query}}",
+      "title": "{{count}} Ergebnis für {{query}}",
+      "title_other": "{{count}} Ergebnisse für {{query}}"
+    },
+    "checkout": {
+      "title_one": "{{count}} Artikel auschecken",
+      "title": "{{count}} Artikel auschecken",
+      "title_other": "{{count}} Artikel auschecken"
+    },
+    "search": {
+      "title_one": "{{count}} Ergebnis für \"{{query}}\"",
+      "title": "{{count}} Ergebnis für \"{{query}}\"",
+      "title_other": "{{count}} Ergebnisse für \"{{query}}\"",
+      "findProductTitle_one": "{{count}} Ergebnis für Coupon \"{{coupon}}\"",
+      "findProductTitle": "{{count}} Ergebnis für Coupon \"{{coupon}}\"",
+      "findProductTitle_other": "{{count}} Ergebnisse für Coupon \"{{coupon}}\"",
+      "page_title": "Suchergebnisse für \"{{query}}\""
+    },
+    "product": {
+      "description": "{{description}}",
+      "heading": "{{heading}}",
+      "title": "{{title}}",
+      "page_title": "Produkte"
+    }
+  },
+  "dataLoading": {
+    "loading": "Wird geladen...",
+    "message": "Wir sammeln nur Ihre Daten ...",
+    "wentWrong": "Etwas ist schief gelaufen ...",
+    "errorMessage": "Wir können Ihre Daten derzeit nicht erfassen.",
+    "loadAgain": "Erneut laden"
+  },
+  "navigation": {
+    "shopAll": "Alle {{ navNode}} kaufen >"
+  },
+  "searchBox": {
+    "placeholder": "Nach einem Produkt suchen",
+    "productlabel": "Produkte",
+    "materialcodetext": "Materialcode: ",
+    "suggestiontext": "Alle Suchergebnisse für",
+    "contractProductLabel": "Vertragsprodukt",
+    "viewProduct": "Produkt anzeigen",
+    "favoriteSearch": "Favoriten suchen",
+    "frequentSearch": "Häufig bestellte Suche",
+    "contractSearch": "Vertragsprodukte suchen",
+    "favoritelocation": "Bevorzugte Standorte({{ count }})",
+    "help": {
+      "insufficientChars": "Bitte geben Sie weitere Zeichen ein",
+      "noMatchwithvar": "Es liegen keine Ergebnisse für \"{{matNum}}\" vor",
+      "noMatch": "Es liegen keine Ergebnisse für \"{{query}}\" vor",
+      "noMatchMessage1": "Stellen Sie sicher, dass alle Wörter richtig geschrieben sind",
+      "noMatchVisitText1": "Besuchen Sie unsere ",
+      "noMatchVisitText2": "Produktkatalog",
+      "noMatchVisitText3": " das Produkt zu finden, das Sie suchen",
+      "exactMatch": "{{ term }}",
+      "empty": "Fragen Sie uns alles"
+    },
+    "productapplicationtext": "Anwendung von Produkten",
+    "productApplicationConstant": "ProduktAnwendung",
+    "productcount": "Produkte",
+    "sortBy": "Sortieren nach:"
+  },
+  "sorting": {
+    "date": "Datum",
+    "orderNumber": "Bestellnummer",
+    "rma": "Rückgabenummer"
+  },
+  "refErrorMsg": {
+    "billingdocumentNumber": "Geben Sie die Nummer des Abrechnungsbelegs ein",
+    "deliverydocumentNumber": "Liefernummer eingeben",
+    "purchaseOrderNumber": "PO-Nummer eingeben",
+    "contractNumber": "Vertragsnummer eingeben",
+    "orderNumber": "Bestellnummer eingeben",
+    "creditMemoNumber": "Gutschriftsnummer eingeben",
+    "distributorDeliveryNumber": "Geben Sie die Liefernummer des Vertriebspartners ein",
+    "deliveryInstructions": "Lieferanweisungen eingeben",
+    "driverInstructions": "Fahreranweisungen eingeben",
+    "documentNumber": "Bitte geben Sie die Dokumentnummer ein"
+  },
+  "validationErrorMsg": {
+    "billingdocumentNumber": "Nur Zahlen eingeben",
+    "deliverydocumentNumber": "Nur Zahlen eingeben",
+    "purchaseOrderNumber": "Gültigen Wert eingeben",
+    "contractNumber": "Nur Zahlen eingeben",
+    "orderNumber": "Nur Zahlen eingeben",
+    "creditMemoNumber": "Nur Zahlen eingeben",
+    "distributorDeliveryNumber": "Geben Sie einen gültigen Wert ein",
+    "sundrydocumentNumber": "Nur Zahlen eingeben"
+  },
+  "dateFilter": {
+    "billingdate": "Abrechnungsdatum",
+    "shipdate": "Versanddatum",
+    "createddate": "Erstellungsdatum"
+  },
+  "httpHandlers": {
+    "badGateway": "Ein Serverfehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+    "badRequestPleaseLoginAgain": "{{ errorMessage }}. Bitte melden Sie sich erneut an.",
+    "badRequestOldPasswordIncorrect": "Altes Passwort falsch.",
+    "conflict": "Bereits vorhanden",
+    "forbidden": "Sie sind nicht berechtigt, diese Aktion durchzuführen.",
+    "gatewayTimeout": "Der Server hat nicht geantwortet. Bitte versuchen Sie es später erneut.",
+    "internalServerError": "Ein interner Serverfehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+    "unknownError": "Ein unbekannter Fehler ist aufgetreten",
+    "unauthorized": {
+      "common": "Ein unbekannter Autorisierungsfehler ist aufgetreten",
+      "invalid_client": "Falsche Client-Anmeldeinformationen"
+    },
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "Die ausgewählte Kreditkarte wird nicht unterstützt. Bitte wählen Sie eine andere aus.",
+        "card_accountNumber": "Die eingegebene Kreditkartennummer ist ungültig.",
+        "card_cvNumber": "Der eingegebene Sicherheitscode ist ungültig.",
+        "card_expirationMonth": "Das eingegebene Ablaufdatum der Kreditkarte ist ungültig.",
+        "card_expirationYear": "Das eingegebene Ablaufdatum der Kreditkarte ist ungültig.",
+        "billTo_firstName": "Der eingegebene Vorname ist ungültig.",
+        "billTo_lastName": "Der eingegebene Nachname ist ungültig.",
+        "billTo_street1": "Die eingegebene Adresse ist ungültig.",
+        "billTo_street2": "Die eingegebene Adresse ist ungültig.",
+        "billTo_city": "Die eingegebene Stadt ist für diese Kreditkarte nicht gültig.",
+        "billTo_state": "Der eingegebene Bundesstaat/die eingegebene Provinz ist für diese Kreditkarte nicht gültig.",
+        "billTo_country": "Das eingegebene Land ist für diese Kreditkarte nicht gültig.",
+        "billTo_postalCode": "Die Postleitzahl ist für diese Kreditkarte nicht gültig.",
+        "country": {
+          "isocode": "Fehlendes Land"
+        }
+      },
+      "invalid": {
+        "card_expirationMonth": "Das eingegebene Ablaufdatum der Kreditkarte ist ungültig.",
+        "firstName": "Der eingegebene Vorname ist ungültig.",
+        "lastName": "Der eingegebene Nachname ist ungültig.",
+        "password": "Das eingegebene Passwort ist ungültig.",
+        "uid": "UID ist ungültig."
+      }
+    },
+    "cartNotFound": "Warenkorb nicht gefunden.",
+    "invalidCodeProvided": "Ungültiger Code angegeben."
+  },
+  "miniCart": {
+    "item_one": "{{count}} Artikel befindet sich derzeit in Ihrem Warenkorb",
+    "item": "{{count}} Artikel derzeit in Ihrem Warenkorb",
+    "item_other": "{{count}} Artikel, die sich derzeit in Ihrem Warenkorb befinden",
+    "total": "{{total}}",
+    "count": "{{count}}"
+  },
+  "miniLogin": {
+    "userGreeting": "Hallo, {{name}}",
+    "signInRegister": "Anmelden/Registrieren"
+  },
+  "skipLink": {
+    "skipTo": "Überspringen zu",
+    "labels": {
+      "header": "Kopfzeile",
+      "main": "Hauptinhalt",
+      "footer": "Fußzeile",
+      "productFacets": "Produkt Facetten"
+    }
+  },
+  "formErrors": {
+    "globalMessage": "Das Formular, das Sie einreichen möchten, enthält Fehler.",
+    "required": "Dieses Feld ist ein Pflichtfeld",
+    "cxInvalidEmail": "Dies ist kein gültiges E-Mail-Format",
+    "cxInvalidPassword": "Dies ist kein gültiges Passwortformat",
+    "cxPasswordsMustMatch": "Passwortfelder müssen übereinstimmen",
+    "cxEmailsMustMatch": "E-Mail-Felder müssen übereinstimmen",
+    "cxStarRatingEmpty": "Bewertungsfeld ist erforderlich",
+    "cxNoSelectedItemToCancel": "Wählen Sie mindestens ein Element zum Abbrechen aus",
+    "prodtypevalidate": "Bitte wählen Sie eine Abteilung",
+    "userCreateInfoMsg": "Sie erstellen ein Super-Benutzerkonto für abc@mail.com",
+    "privilegeUncheckError": "Bitte wählen Sie mindestens ein Privileg aus.",
+    "priceOnlySelected": "Bitte wählen Sie ein zusätzliches Privileg für die Preisanzeige"
+  },
+  "errorHandlers": {
+    "scriptFailedToLoad": "Das Skript konnte nicht geladen werden.",
+    "refreshThePage": "Bitte aktualisieren Sie die Seite."
+  },
+  "productTabs": {
+    "allProducts": "Alle Produkte ({{count}})",
+    "favourites": "Favoriten ({{count}})",
+    "frequentlyOrdered": "Häufig bestellt ({{count}})",
+    "contractProducts": "Vertragsprodukte",
+    "favouritesCount": "{{count}} Favoriten",
+    "allProductsCount": "{{count}} Produkte",
+    "frequentlyOrderedCount": "{{count}} Häufig bestellt",
+    "contractProductsCount": "{{count}} Produkte"
+  },
+  "asm": {
+    "endSession": "Sitzung beenden"
+  },
+  "showAll": {
+    "showDocuments": "{{pagecount}} von {{totalcount}} Dokumenten werden angezeigt",
+    "showing": "Anzeigen",
+    "documents": "Dokumente",
+    "downloadingDocuments": "Dokument wird heruntergeladen",
+    "downloadFiles": "{{totalcount}} Datei(en) herunterladen als"
+  },
+  "chooseOrder": {
+    "title": "Auftragsart auswählen",
+    "selectionTitle": "Wählen Sie einen Auftragstyp",
+    "quickOrder": "Schnellbestellung (mehrere Produkte)",
+    "uploadOrder": "Bestellformular hochladen",
+    "poNumberOptional": "Bestellnummer (optional)",
+    "poNumberManditory": "Bestellnummer",
+    "continueButton": "Fortfahren",
+    "backButton": "Rückseite",
+    "exitOrderTitle": "Auftrag beenden?",
+    "exitOrderDesc": "Wenn Sie jetzt beenden, wird Ihre Bestellung nicht gespeichert.",
+    "exitButton": "Auftrag beenden",
+    "goBack": "Zurückgehen",
+    "poNumbererror": "Geben Sie die Bestellnummer ein",
+    "leavingPageTitle": "Verlassen Sie die Seite?",
+    "leavingPageDesc": "Wenn Sie diese Seite jetzt verlassen, wird alles, woran Sie gerade arbeiten, nicht gespeichert.",
+    "switchAcntTitle": "Müssen diese Details geändert werden?",
+    "switchAccountDesc": "Wenn Sie eine der Kontodaten ändern, wird die Seite zurückgesetzt und jeder Artikel, der sich derzeit in Ihrem Warenkorb befindet, wird entfernt.",
+    "okay": "Ok, fahren Sie fort",
+    "cancelBasket": "Abbrechen und zum Warenkorb gehen"
+  },
+  "pageAccessRestricted": {
+    "return": "Rückgabe",
+    "home": "Zuhause",
+    "gobacktohomepage": "Zurück zur Homepage",
+    "pageNotFound": "Seite nicht gefunden",
+    "noPermission": "Sie haben keine Berechtigung, diese Seite anzuzeigen."
+  },
+  "switchAccount": {
+    "cartItemRemovePopup": "Sie haben bereits Artikel in Ihrem Warenkorb",
+    "cartItemRemoveDesc": "Wenn Sie eine DFOA-Bestellung erstellen möchten, werden alle Artikel, die sich derzeit in Ihrem Warenkorb befinden, entfernt.",
+    "cartItemRemoveConf": "Möchten Sie fortfahren?",
+    "noviewItems": "Nein, Elemente anzeigen",
+    "continue": "Ja, weiter"
+  },
+  "oneSource": {
+    "legalDisclaimer": "Haftungsausschluss von Shell plc",
+    "leavingSite": "Sie verlassen jetzt die {{country}}-Website",
+    "thanksMessage": "Vielen Dank für Ihren Besuch auf der {{country}}-Website",
+    "disclaimerDescription": "Der von Ihnen ausgewählte Link führt Sie zu einer Website, die nicht von Shell plc oder einem Mitglied der Shell-Gruppe kontrolliert wird. Dementsprechend befürworten, übernehmen, zertifizieren oder validieren weder Shell plc noch ein Mitglied der Shell-Gruppe die auf der verlinkten Website enthaltenen Informationen und Materialien. Dies umfasst seinen Sponsor und alle Richtlinien, Aktivitäten, die auf der Website von Werbetreibenden auf der Website angeboten oder mit der Website verknüpft werden."
+  },
+  "hyundaiSSO": {
+    "wantToLogBackIn": "Möchten Sie sich wieder anmelden?",
+    "logBackDescription": "Gehen Sie zum Hyundai-Händlerportal (HyundaiDealer.com) und melden Sie sich über den Link Hyundai Lubricants Program an.",
+    "geneisilogBackDescription": "Gehen Sie zum Hyundai-Händlerportal (HyundaiDealer.com) und melden Sie sich über den Link Hyundai Lubricants Program an."
+  }
+}
