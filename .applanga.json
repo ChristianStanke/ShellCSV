@@ -1,0 +1,61 @@
+{
+  "app": {
+    "base_language": "en",
+    "push": {
+      "source": [
+        {
+          "path": "./common.json",
+          "file_format": "i18next_json",
+          "tag": "JSON1",
+          "language": "en"
+        },
+        {
+          "path": "./profile.properties",
+          "file_format": "java_properties",
+          "tag": "Prop1",
+          "language": "en"
+        },
+        {
+          "path": "./rolesAndPrivileges.csv",
+          "file_format": "csv",
+          "tag": "CSV1",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "language": "en"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "path": "./<language>_File1.json",
+          "file_format": "i18next_json",
+          "tag": "JSON1",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./<language>_File2.properties",
+          "file_format": "java_properties",
+          "tag": "Prop1",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./<language>_File3.csv",
+          "file_format": "csv",
+          "tag": "CSV1",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "exclude_languages": [
+            "en"
+          ]
+        }
+      ]
+    }
+  }
+}
