@@ -10,12 +10,6 @@
           "language": "en"
         },
         {
-          "path": "./createusers.json",
-          "file_format": "nested_json",
-          "tag": "JSON2",
-          "language": "en"
-        },
-        {
           "path": "./profile.properties",
           "file_format": "java_properties",
           "tag": "Prop1",
@@ -40,14 +34,6 @@
           "path": "./<language>.common.json",
           "file_format": "nested_json",
           "tag": "JSON1",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./<language>.createusers.json",
-          "file_format": "nested_json",
-          "tag": "JSON2",
           "exclude_languages": [
             "en"
           ]
