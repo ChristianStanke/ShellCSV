@@ -11,7 +11,7 @@
         },
         {
           "path": "./createusers.json",
-          "file_format": "nested_json",
+          "file_format": "react_nested_json",
           "tag": "JSON2",
           "language": "en"
         },
@@ -45,8 +45,8 @@
           ]
         },
         {
-          "path": "./<language>.createuser.json",
-          "file_format": "nested_json",
+          "path": "./<language>.createuser1.json",
+          "file_format": "react_nested_json",
           "tag": "JSON2",
           "exclude_languages": [
             "en"
