@@ -1,0 +1,306 @@
+{
+  "common": {
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "remove": "إزالة",
+    "edit": "تحرير",
+    "back": "عودة",
+    "submit": "إرسال",
+    "continue": "متابعة",
+    "save": "حفظ",
+    "savechanges": "حفظ التغييرات",
+    "done": "تم",
+    "home": "الصفحة الرئيسية",
+    "date": "التاريخ",
+    "today": "اليوم",
+    "latest": "الأحدث",
+    "all": "الكل",
+    "print": "طباعة",
+    "download": "تنزيل",
+    "dispute": "النزاع",
+    "currency": "جنيه إسترليني",
+    "open": "فتح",
+    "moreinfo": "المزيد من المعلومات",
+    "lessinfo": "معلومات أقل",
+    "clear": "مسح",
+    "search": "البحث",
+    "selectAll": "تحديد الكل",
+    "totalAmount": "إجمالي المبلغ ({{currency}})",
+    "total": "الإجمالي",
+    "downloadexcel": "تنزيل (Excel)",
+    "downloadpdf": "تنزيل (PDF)",
+    "viewprint": "عرض/طباعة",
+    "view": "عرض",
+    "apply": "تطبيق",
+    "pdf": "PDF",
+    "excel": "Excel",
+    "excell": "Excel",
+    "merge": "الدمج كملف PDF",
+    "mergeFile": "دمج الملف",
+    "preview": "معاينة",
+    "filetypes": "أنواع الملفات",
+    "exportas": "تصدير باسم",
+    "faqtitle": "الأسئلة الشائعة",
+    "getstartedtitle": "ابدأ",
+    "knowledgebasetitle": "قاعدة المعارف",
+    "myservicerequest": "طلب خدمتي",
+    "guidedtour": "احصل على جولة",
+    "welcometour": "صفحتك الرئيسية",
+    "newfeatures": "اكتشف",
+    "newsmhfeatures": "تعرف على الجديد",
+    "part_number": "رقم القطعة",
+    "not_provided": "غير متوفر",
+    "downloadAs": "التنزيل كـ",
+    "myssodistributor": "موزع SSO",
+    "counts": "({{count}})",
+    "products": "المنتجات",
+    "downloadDeliveryTicket": "تنزيل بطاقة التسليم",
+    "orderDetailsPDF": "تفاصيل الطلب (PDF)",
+    "orderDetailsExcel": "تفاصيل الطلب (Excel)",
+    "deliveryTicketPDF": "تذكرة التسليم (PDF)",
+    "sdaLink": "أكاديمية الوقود التجاري"
+  },
+  "pageMetaResolver": {
+    "category": {
+      "title": "نتيجة {{count}} لـ {{query}}",
+      "title_one": "نتيجة {{count}} لـ {{query}}",
+      "title_other": "نتائج {{count}} لـ {{query}}"
+    },
+    "checkout": {
+      "title": "تسجيل المغادرة {{count}} من العناصر",
+      "title_one": "تسجيل المغادرة {{count}} من العناصر",
+      "title_other": "تسجيل خروج {{count}} من العناصر"
+    },
+    "search": {
+      "title": "نتيجة {{count}} لـ \"{{query}}\"",
+      "findProductTitle": "نتيجة {{count}} للكوبون \"{{coupon}}\"",
+      "page_title": "نتائج البحث عن \"{{query}}\"",
+      "title_one": "نتيجة {{count}} لـ \"{{query}}\"",
+      "title_other": "نتائج {{count}} لـ \"{{query}}\"",
+      "findProductTitle_one": "نتيجة {{count}} للكوبون \"{{coupon}}\"",
+      "findProductTitle_other": "نتائج {{count}} للكوبون \"{{coupon}}\""
+    },
+    "product": {
+      "description": "{{description}}",
+      "heading": "{{heading}}",
+      "title": "{{title}}",
+      "page_title": "المنتجات"
+    }
+  },
+  "dataLoading": {
+    "loading": "جارٍ التحميل...",
+    "message": "نحن نقوم فقط بجمع بياناتك...",
+    "wentWrong": "حدث خطأ ما...",
+    "errorMessage": "يتعذر علينا جمع معلوماتك الآن.",
+    "loadAgain": "تحميل مرة أخرى"
+  },
+  "navigation": {
+    "shopAll": "تسوق كل {{ navNode}} >"
+  },
+  "searchBox": {
+    "placeholder": "البحث عن منتج",
+    "productlabel": "المنتجات",
+    "materialcodetext": "رمز المادة: ",
+    "suggestiontext": "جميع نتائج البحث لـ",
+    "contractProductLabel": "منتج العقد",
+    "viewProduct": "عرض المنتج",
+    "favoriteSearch": "البحث عن المفضلات",
+    "frequentSearch": "البحث الذي يتم طلبه بشكل متكرر",
+    "contractSearch": "البحث عن منتجات العقود",
+    "favoritelocation": "المواقع المفضلة({{ count }})",
+    "help": {
+      "insufficientChars": "يُرجى كتابة المزيد من الأحرف",
+      "noMatchwithvar": "لا توجد نتائج لـ \"{{matNum}}\"",
+      "noMatch": "لا توجد نتائج لـ \"{{query}}\"",
+      "noMatchMessage1": "تأكد من هجاء جميع الكلمات بشكل صحيح",
+      "noMatchVisitText1": "تفضل بزيارة ",
+      "noMatchVisitText2": "كتالوج المنتجات",
+      "noMatchVisitText3": " للعثور على المنتج الذي تبحث عنه",
+      "exactMatch": "{{ term }}",
+      "empty": "اسألنا عن أي شيء"
+    },
+    "productapplicationtext": "تطبيق المنتجات",
+    "productApplicationConstant": "تطبيق المنتج",
+    "productcount": "منتجات",
+    "sortBy": "فرز حسب:"
+  },
+  "sorting": {
+    "date": "التاريخ",
+    "orderNumber": "رقم الطلب",
+    "rma": "رقم الإرجاع"
+  },
+  "refErrorMsg": {
+    "billingdocumentNumber": "أدخل رقم مستند الفوترة",
+    "deliverydocumentNumber": "أدخل رقم التسليم",
+    "purchaseOrderNumber": "أدخل رقم أمر الشراء",
+    "contractNumber": "أدخل رقم العقد",
+    "orderNumber": "أدخل رقم الطلب",
+    "creditMemoNumber": "أدخل رقم مذكرة الائتمان",
+    "distributorDeliveryNumber": "أدخل رقم تسليم الموزع",
+    "deliveryInstructions": "أدخل تعليمات التسليم",
+    "driverInstructions": "أدخل تعليمات السائق",
+    "documentNumber": "يُرجى إدخال رقم المستند"
+  },
+  "validationErrorMsg": {
+    "billingdocumentNumber": "أدخل الأرقام فقط",
+    "deliverydocumentNumber": "أدخل الأرقام فقط",
+    "purchaseOrderNumber": "أدخل قيمة صالحة",
+    "contractNumber": "أدخل الأرقام فقط",
+    "orderNumber": "أدخل الأرقام فقط",
+    "creditMemoNumber": "أدخل الأرقام فقط",
+    "distributorDeliveryNumber": "أدخل قيمة صالحة",
+    "sundrydocumentNumber": "أدخل الأرقام فقط"
+  },
+  "dateFilter": {
+    "billingdate": "تاريخ الفوترة",
+    "shipdate": "تاريخ الشحن",
+    "createddate": "تاريخ الإنشاء"
+  },
+  "httpHandlers": {
+    "badGateway": "حدث خطأ في الخادم. يُرجى المحاولة مرة أخرى لاحقًا.",
+    "badRequestPleaseLoginAgain": "{{ errorMessage }}. يُرجى تسجيل الدخول مرة أخرى.",
+    "badRequestOldPasswordIncorrect": "كلمة المرور القديمة غير صحيحة.",
+    "conflict": "موجود بالفعل",
+    "forbidden": "غير مصرح لك بتنفيذ هذا الإجراء.",
+    "gatewayTimeout": "لم يستجب الخادم، يُرجى إعادة المحاولة لاحقًا.",
+    "internalServerError": "حدث خطأ داخلي في الخادم. يُرجى المحاولة مرة أخرى لاحقًا.",
+    "unknownError": "حدث خطأ غير معروف",
+    "unauthorized": {
+      "common": "حدث خطأ غير معروف في التفويض",
+      "invalid_client": "بيانات اعتماد العميل غير صحيحة"
+    },
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "بطاقة الائتمان المحددة غير مدعومة. يُرجى تحديد خيار آخر.",
+        "card_accountNumber": "رقم بطاقة الائتمان الذي أدخلته غير صالح.",
+        "card_cvNumber": "رمز الأمان الذي تم إدخاله غير صالح.",
+        "card_expirationMonth": "تاريخ انتهاء صلاحية بطاقة الائتمان الذي تم إدخاله غير صالح.",
+        "card_expirationYear": "تاريخ انتهاء صلاحية بطاقة الائتمان الذي تم إدخاله غير صالح.",
+        "billTo_firstName": "الاسم الأول الذي تم إدخاله غير صالح.",
+        "billTo_lastName": "الاسم الأخير الذي تم إدخاله غير صالح.",
+        "billTo_street1": "العنوان الذي تم إدخاله غير صالح.",
+        "billTo_street2": "العنوان الذي تم إدخاله غير صالح.",
+        "billTo_city": "المدينة التي تم إدخالها غير صالحة لبطاقة الائتمان هذه.",
+        "billTo_state": "الولاية/المقاطعة التي تم إدخالها غير صالحة لبطاقة الائتمان هذه.",
+        "billTo_country": "البلد الذي تم إدخاله غير صالح لبطاقة الائتمان هذه.",
+        "billTo_postalCode": "الرمز البريدي غير صالح لبطاقة الائتمان هذه.",
+        "country": {
+          "isocode": "البلد مفقود"
+        }
+      },
+      "invalid": {
+        "card_expirationMonth": "تاريخ انتهاء صلاحية بطاقة الائتمان الذي تم إدخاله غير صالح.",
+        "firstName": "الاسم الأول الذي تم إدخاله غير صالح.",
+        "lastName": "الاسم الأخير الذي تم إدخاله غير صالح.",
+        "password": "كلمة المرور التي تم إدخالها غير صالحة.",
+        "uid": "معرف UID غير صالح."
+      }
+    },
+    "cartNotFound": "لم يتم العثور على العربة.",
+    "invalidCodeProvided": "تم تقديم رمز غير صالح."
+  },
+  "miniCart": {
+    "item": "{{count}} عنصر موجود حاليًا في عربة التسوق الخاصة بك",
+    "total": "{{total}}",
+    "count": "{{count}}",
+    "item_one": "{{count}} عنصر موجود حاليًا في عربة التسوق الخاصة بك",
+    "item_other": "{{count}} من العناصر موجودة حاليًا في عربة التسوق الخاصة بك"
+  },
+  "miniLogin": {
+    "userGreeting": "مرحبًا، {{name}}",
+    "signInRegister": "تسجيل الدخول / التسجيل"
+  },
+  "skipLink": {
+    "skipTo": "تخطي إلى",
+    "labels": {
+      "header": "العنوان",
+      "main": "المحتوى الرئيسي",
+      "footer": "تذييل الصفحة",
+      "productFacets": "أوجه المنتج"
+    }
+  },
+  "formErrors": {
+    "globalMessage": "النموذج الذي تحاول إرساله يحتوي على أخطاء.",
+    "required": "هذا الحقل مطلوب",
+    "cxInvalidEmail": "تنسيق البريد الإلكتروني هذا غير صالح",
+    "cxInvalidPassword": "تنسيق كلمة المرور هذا غير صالح",
+    "cxPasswordsMustMatch": "يجب أن تتطابق حقول كلمة المرور",
+    "cxEmailsMustMatch": "يجب أن تتطابق حقول البريد الإلكتروني",
+    "cxStarRatingEmpty": "حقل التقييم مطلوب",
+    "cxNoSelectedItemToCancel": "حدد عنصرًا واحدًا على الأقل للإلغاء",
+    "prodtypevalidate": "يُرجى تحديد قسم",
+    "userCreateInfoMsg": "أنت تقوم بإنشاء حساب مستخدم ممتاز لـ abc@mail.com",
+    "privilegeUncheckError": "يُرجى تحديد امتياز واحد على الأقل.",
+    "priceOnlySelected": "يُرجى تحديد امتياز إضافي لعارض الأسعار"
+  },
+  "errorHandlers": {
+    "scriptFailedToLoad": "فشل تحميل البرنامج النصي.",
+    "refreshThePage": "يُرجى تحديث الصفحة."
+  },
+  "productTabs": {
+    "allProducts": "جميع المنتجات ({{count}})",
+    "favourites": "المفضلات ({{count}})",
+    "frequentlyOrdered": "يتم طلبها بشكل متكرر ({{count}})",
+    "contractProducts": "المنتجات التعاقدية",
+    "favouritesCount": "{{count}} المفضلات",
+    "allProductsCount": "{{count}} منتجات",
+    "frequentlyOrderedCount": "{{count}} يُطلب بشكل متكرر",
+    "contractProductsCount": "{{count}} منتجات"
+  },
+  "asm": {
+    "endSession": "الخروج من الجلسة"
+  },
+  "showAll": {
+    "showDocuments": "إظهار {{pagecount}} من {{totalcount}} مستندات",
+    "showing": "إظهار",
+    "documents": "المستندات",
+    "downloadingDocuments": "تنزيل المستند",
+    "downloadFiles": "تنزيل ملف (ملفات) {{totalcount}} كـ"
+  },
+  "chooseOrder": {
+    "title": "اختر نوع الطلب",
+    "selectionTitle": "اختر نوع الطلب",
+    "quickOrder": "طلب سريع (منتجات متعددة)",
+    "uploadOrder": "تحميل نموذج الطلب",
+    "poNumberOptional": "رقم أمر الشراء (اختياري)",
+    "poNumberManditory": "رقم أمر الشراء",
+    "continueButton": "متابعة",
+    "backButton": "عودة",
+    "exitOrderTitle": "هل تريد إنهاء الطلب؟",
+    "exitOrderDesc": "إذا خرجت الآن، فلن يتم حفظ طلبك.",
+    "exitButton": "أمر الخروج",
+    "goBack": "العودة",
+    "poNumbererror": "أدخل رقم أمر الشراء",
+    "leavingPageTitle": "هل تريد مغادرة الصفحة؟",
+    "leavingPageDesc": "إذا غادرت هذه الصفحة الآن، فلن يتم حفظ أي شيء تعمل عليه حاليًا.",
+    "switchAcntTitle": "هل تحتاج إلى تغيير هذه التفاصيل؟",
+    "switchAccountDesc": "إذا قمت بتغيير أي من تفاصيل الحساب، فستتم إعادة تعيين الصفحة وستتم إزالة كل عنصر موجود حاليًا في سلتك.",
+    "okay": "حسنًا، تابع",
+    "cancelBasket": "الإلغاء والانتقال إلى السلة"
+  },
+  "pageAccessRestricted": {
+    "return": "عودة",
+    "home": "المنزل",
+    "gobacktohomepage": "العودة إلى الصفحة الرئيسية",
+    "pageNotFound": "لم يتم العثور على الصفحة",
+    "noPermission": "ليس لديك الإذن لعرض هذه الصفحة."
+  },
+  "switchAccount": {
+    "cartItemRemovePopup": "لديك بالفعل عناصر في سلتك",
+    "cartItemRemoveDesc": "إذا كنت ترغب في إنشاء طلب DFOA، فستتم إزالة جميع العناصر الموجودة حاليًا في سلتك.",
+    "cartItemRemoveConf": "هل ترغب في المتابعة؟",
+    "noviewItems": "لا، عرض العناصر",
+    "continue": "نعم، تابع"
+  },
+  "oneSource": {
+    "legalDisclaimer": "إخلاء المسؤولية القانونية لشركة شل بي إل سي",
+    "leavingSite": "أنت الآن تغادر موقع {{country}} الإلكتروني",
+    "thanksMessage": "شكرًا لك على زيارة الموقع الإلكتروني {{country}}",
+    "disclaimerDescription": "سيوجهك الرابط الذي حددته إلى موقع إلكتروني لا تتحكم فيه شركة Shell plc أو أي عضو في مجموعة Shell. وبناءً على ذلك، لا تصادق شركة Shell plc ولا أي عضو في مجموعة Shell على المعلومات والمواد الواردة في الموقع الإلكتروني المرتبط أو تعتمدها أو تعتمدها أو تصدق عليها أو تتحقق منها بطريقة أخرى. ويشمل ذلك الراعي وأي سياسات أو أنشطة يتم تقديمها على الموقع أو من قبل أي معلن على الموقع أو مرتبطة بالموقع."
+  },
+  "hyundaiSSO": {
+    "wantToLogBackIn": "هل تريد تسجيل الدخول مرة أخرى؟",
+    "logBackDescription": "انتقل إلى بوابة Hyundai Dealer Portal (HyundaiDealer.com) وسجّل الدخول باستخدام رابط برنامج Hyundai Lubricants Program.",
+    "geneisilogBackDescription": "انتقل إلى بوابة Hyundai Dealer Portal (HyundaiDealer.com) وسجّل الدخول باستخدام رابط برنامج Hyundai Lubricants Program."
+  }
+}
