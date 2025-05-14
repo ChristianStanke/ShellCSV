@@ -1,0 +1,296 @@
+{
+  "common": {
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "remove": "Eliminar",
+    "edit": "Editar",
+    "back": "Parte posterior",
+    "submit": "Enviar",
+    "continue": "Continuar",
+    "save": "Guardar",
+    "savechanges": "Guardar cambios",
+    "done": "Hecho",
+    "home": "Hogar",
+    "date": "Fecha",
+    "today": "Hoy",
+    "latest": "Último",
+    "all": "Todos",
+    "print": "Imprimir",
+    "download": "Descargar",
+    "dispute": "Disputa",
+    "currency": "GBP",
+    "open": "Abrir",
+    "moreinfo": "Más información",
+    "lessinfo": "Menos información",
+    "clear": "Borrar",
+    "search": "Buscar",
+    "selectAll": "Seleccionar todo",
+    "totalAmount": "Monto total ({{currency}})",
+    "total": "Total",
+    "downloadexcel": "Descargar (Excel)",
+    "downloadpdf": "Descargar (PDF)",
+    "viewprint": "Ver/Imprimir",
+    "view": "Ver",
+    "apply": "Aplicar",
+    "pdf": "PDF",
+    "excel": "Excel",
+    "excell": "Excel",
+    "merge": "Fusionar como PDF",
+    "mergeFile": "Combinar archivo",
+    "preview": "Vista previa",
+    "filetypes": "Tipos de archivos",
+    "exportas": "Exportar como",
+    "faqtitle": "Preguntas frecuentes",
+    "getstartedtitle": "Comience",
+    "knowledgebasetitle": "Base de conocimientos",
+    "myservicerequest": "Mi solicitud de servicio",
+    "guidedtour": "Haga un recorrido",
+    "welcometour": "Su página de inicio",
+    "newfeatures": "Descubrir",
+    "newsmhfeatures": "Vea las novedades",
+    "part_number": "Número de pieza",
+    "not_provided": "No proporcionado",
+    "downloadAs": "Descargar como",
+    "myssodistributor": "SSO del distribuidor",
+    "counts": "({{count}})",
+    "products": "Productos",
+    "downloadDeliveryTicket": "Descargar la boleta de entrega",
+    "orderDetailsPDF": "Detalles del pedido (PDF)",
+    "orderDetailsExcel": "Detalles del pedido (Excel)",
+    "deliveryTicketPDF": "Boleta de entrega (PDF)",
+    "sdaLink": "Academia de Combustibles Comerciales"
+  },
+  "pageMetaResolver": {
+    "category": {
+      "title": "Resultado de {{count}} para {{query}}"
+    },
+    "checkout": {
+      "title": "Elemento de pago {{count}}"
+    },
+    "search": {
+      "title": "Resultado {{count}} para \"{{query}}\"",
+      "findProductTitle": "Resultado {{count}} para el cupón \"{{coupon}}\"",
+      "page_title": "Resultados de búsqueda para \"{{query}}\""
+    },
+    "product": {
+      "description": "{{description}}",
+      "heading": "{{heading}}",
+      "title": "{{title}}",
+      "page_title": "Productos"
+    }
+  },
+  "dataLoading": {
+    "loading": "Cargando...",
+    "message": "Solo estamos recopilando sus datos...",
+    "wentWrong": "Algo salió mal...",
+    "errorMessage": "No podemos recopilar su información en este momento.",
+    "loadAgain": "Volver a cargar"
+  },
+  "navigation": {
+    "shopAll": "Comprar todos los {{ navNode}} >"
+  },
+  "searchBox": {
+    "placeholder": "Buscar un producto",
+    "productlabel": "Productos",
+    "materialcodetext": "Código del material: ",
+    "suggestiontext": "Todos los resultados de búsqueda para",
+    "contractProductLabel": "Producto contratado",
+    "viewProduct": "Ver producto",
+    "favoriteSearch": "Buscar favoritos",
+    "frequentSearch": "Buscar pedidos frecuentes",
+    "contractSearch": "Buscar productos contractuales",
+    "favoritelocation": "Ubicaciones favoritas({{ count }})",
+    "help": {
+      "insufficientChars": "Escriba más caracteres",
+      "noMatchwithvar": "No hay resultados para \"{{matNum}}\"",
+      "noMatch": "No hay resultados para \"{{query}}\"",
+      "noMatchMessage1": "Asegúrese de que todas las palabras estén escritas correctamente",
+      "noMatchVisitText1": "Visite nuestro ",
+      "noMatchVisitText2": "catálogo de productos",
+      "noMatchVisitText3": " para encontrar el producto que está buscando",
+      "exactMatch": "{{ term }}",
+      "empty": "Pregúntenos cualquier cosa"
+    },
+    "productapplicationtext": "Aplicación de productos",
+    "productApplicationConstant": "aplicación del producto",
+    "productcount": "productos",
+    "sortBy": "Ordenar por:"
+  },
+  "sorting": {
+    "date": "Fecha",
+    "orderNumber": "Número de pedido",
+    "rma": "Número de devolución"
+  },
+  "refErrorMsg": {
+    "billingdocumentNumber": "Ingrese el número de documento de facturación",
+    "deliverydocumentNumber": "Ingrese el número de entrega",
+    "purchaseOrderNumber": "Ingrese el número de orden de compra",
+    "contractNumber": "Ingrese el número de contrato",
+    "orderNumber": "Ingrese el número de pedido",
+    "creditMemoNumber": "Ingrese el número de nota de crédito",
+    "distributorDeliveryNumber": "Ingrese el número de entrega del distribuidor",
+    "deliveryInstructions": "Ingresar instrucciones de entrega",
+    "driverInstructions": "Ingrese las instrucciones del conductor",
+    "documentNumber": "Ingrese el número de documento"
+  },
+  "validationErrorMsg": {
+    "billingdocumentNumber": "Ingresar solo números",
+    "deliverydocumentNumber": "Ingresar solo números",
+    "purchaseOrderNumber": "Ingrese un valor válido",
+    "contractNumber": "Ingresar solo números",
+    "orderNumber": "Ingresar solo números",
+    "creditMemoNumber": "Ingresar solo números",
+    "distributorDeliveryNumber": "Ingrese un valor válido",
+    "sundrydocumentNumber": "Ingresar solo números"
+  },
+  "dateFilter": {
+    "billingdate": "Fecha de facturación",
+    "shipdate": "Fecha de envío",
+    "createddate": "Fecha de creación"
+  },
+  "httpHandlers": {
+    "badGateway": "Se produjo un error del servidor. Inténtelo de nuevo más tarde.",
+    "badRequestPleaseLoginAgain": "{{ errorMessage }}. Inicie sesión nuevamente.",
+    "badRequestOldPasswordIncorrect": "Contraseña anterior incorrecta.",
+    "conflict": "Ya existe",
+    "forbidden": "No está autorizado para realizar esta acción.",
+    "gatewayTimeout": "El servidor no respondió, inténtelo de nuevo más tarde.",
+    "internalServerError": "Se produjo un error interno del servidor. Inténtelo de nuevo más tarde.",
+    "unknownError": "Se produjo un error desconocido",
+    "unauthorized": {
+      "common": "Se produjo un error de autorización desconocido",
+      "invalid_client": "Credenciales incorrectas del cliente"
+    },
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "La tarjeta de crédito seleccionada no es compatible. Seleccione otro.",
+        "card_accountNumber": "El número de tarjeta de crédito ingresado no es válido.",
+        "card_cvNumber": "El código de seguridad ingresado no es válido.",
+        "card_expirationMonth": "La fecha de vencimiento de la tarjeta de crédito ingresada no es válida.",
+        "card_expirationYear": "La fecha de vencimiento de la tarjeta de crédito ingresada no es válida.",
+        "billTo_firstName": "El nombre ingresado no es válido.",
+        "billTo_lastName": "El apellido ingresado no es válido.",
+        "billTo_street1": "La dirección ingresada no es válida.",
+        "billTo_street2": "La dirección ingresada no es válida.",
+        "billTo_city": "La ciudad ingresada no es válida para esta tarjeta de crédito.",
+        "billTo_state": "El estado/provincia ingresado no es válido para esta tarjeta de crédito.",
+        "billTo_country": "El país ingresado no es válido para esta tarjeta de crédito.",
+        "billTo_postalCode": "El código postal no es válido para esta tarjeta de crédito.",
+        "country": {
+          "isocode": "Falta el país"
+        }
+      },
+      "invalid": {
+        "card_expirationMonth": "La fecha de vencimiento de la tarjeta de crédito ingresada no es válida.",
+        "firstName": "El nombre ingresado no es válido.",
+        "lastName": "El apellido ingresado no es válido.",
+        "password": "La contraseña ingresada no es válida.",
+        "uid": "El UID no es válido."
+      }
+    },
+    "cartNotFound": "No se encontró el carrito.",
+    "invalidCodeProvided": "Se proporcionó un código no válido."
+  },
+  "miniCart": {
+    "item": "{{count}} artículo actualmente en su carrito",
+    "total": "{{total}}",
+    "count": "{{count}}"
+  },
+  "miniLogin": {
+    "userGreeting": "Hola, {{name}}",
+    "signInRegister": "Iniciar sesión/Registrarse"
+  },
+  "skipLink": {
+    "skipTo": "Saltar a",
+    "labels": {
+      "header": "Encabezado",
+      "main": "Contenido principal",
+      "footer": "Pie de página",
+      "productFacets": "Facetas del producto"
+    }
+  },
+  "formErrors": {
+    "globalMessage": "El formulario que está intentando enviar contiene errores.",
+    "required": "Este campo es obligatorio",
+    "cxInvalidEmail": "Este no es un formato de correo electrónico válido",
+    "cxInvalidPassword": "Este no es un formato de contraseña válido",
+    "cxPasswordsMustMatch": "Los campos de contraseña deben coincidir",
+    "cxEmailsMustMatch": "Los campos de correo electrónico deben coincidir",
+    "cxStarRatingEmpty": "El campo de calificación es obligatorio",
+    "cxNoSelectedItemToCancel": "Seleccione al menos un elemento para cancelar",
+    "prodtypevalidate": "Seleccione una división",
+    "userCreateInfoMsg": "Está creando una cuenta de superusuario para abc@mail.com",
+    "privilegeUncheckError": "Seleccione al menos un privilegio.",
+    "priceOnlySelected": "Seleccione un privilegio adicional para el visor de precios"
+  },
+  "errorHandlers": {
+    "scriptFailedToLoad": "No se pudo cargar el script.",
+    "refreshThePage": "Actualice la página."
+  },
+  "productTabs": {
+    "allProducts": "Todos los productos ({{count}})",
+    "favourites": "Favoritos ({{count}})",
+    "frequentlyOrdered": "Pedido frecuente ({{count}})",
+    "contractProducts": "Productos por contrato",
+    "favouritesCount": "{{count}} Favoritos",
+    "allProductsCount": "{{count}} productos",
+    "frequentlyOrderedCount": "{{count}} pedidos frecuentes",
+    "contractProductsCount": "{{count}} productos"
+  },
+  "asm": {
+    "endSession": "Salir de la sesión"
+  },
+  "showAll": {
+    "showDocuments": "Mostrando {{pagecount}} de {{totalcount}} documentos",
+    "showing": "Mostrando",
+    "documents": "documentos",
+    "downloadingDocuments": "Descargando documento",
+    "downloadFiles": "Descargar {{totalcount}} archivo(s) como"
+  },
+  "chooseOrder": {
+    "title": "Elegir tipo de pedido",
+    "selectionTitle": "Elegir un tipo de pedido",
+    "quickOrder": "Pedido rápido (varios productos)",
+    "uploadOrder": "Cargar formulario de pedido",
+    "poNumberOptional": "Número de orden de compra (opcional)",
+    "poNumberManditory": "Número de orden de compra",
+    "continueButton": "Continuar",
+    "backButton": "Parte posterior",
+    "exitOrderTitle": "¿Salir del pedido?",
+    "exitOrderDesc": "Si sale ahora, su pedido no se guardará.",
+    "exitButton": "Orden de salida",
+    "goBack": "Volver",
+    "poNumbererror": "Ingrese el número de orden de compra",
+    "leavingPageTitle": "¿Salir de la página?",
+    "leavingPageDesc": "Si abandona esta página ahora, no se guardará nada en lo que esté trabajando actualmente.",
+    "switchAcntTitle": "¿Necesita cambiar estos detalles?",
+    "switchAccountDesc": "Si cambia cualquiera de los detalles de la cuenta, la página se restablecerá y se eliminarán todos los artículos que estén actualmente en su canasta.",
+    "okay": "Aceptar continuar",
+    "cancelBasket": "Cancelar e ir a la canasta"
+  },
+  "pageAccessRestricted": {
+    "return": "Devolución",
+    "home": "hogar",
+    "gobacktohomepage": "Volver a la página de inicio",
+    "pageNotFound": "No se encontró la página",
+    "noPermission": "No tiene permiso para ver esta página."
+  },
+  "switchAccount": {
+    "cartItemRemovePopup": "Ya tiene artículos en su canasta",
+    "cartItemRemoveDesc": "Si desea crear un pedido DFOA, se eliminarán todos los artículos que estén actualmente en su canasta.",
+    "cartItemRemoveConf": "¿Desea continuar?",
+    "noviewItems": "No, ver artículos",
+    "continue": "Sí, continuar"
+  },
+  "oneSource": {
+    "legalDisclaimer": "Descargo de responsabilidad legal de Shell plc",
+    "leavingSite": "Ahora está saliendo del sitio web de {{country}}",
+    "thanksMessage": "Gracias por visitar el sitio web de {{country}}",
+    "disclaimerDescription": "El enlace que ha seleccionado lo dirigirá a un sitio web que no está controlado por Shell plc ni ningún miembro del Grupo Shell. En consecuencia, ni Shell plc ni ningún miembro del Grupo Shell avala, adopta, certifica o valida de otro modo la información y el material contenidos en el sitio web vinculado. Esto incluye a su patrocinador y cualquier política, actividad ofrecida en el sitio, por cualquier anunciante en el sitio o vinculada al sitio."
+  },
+  "hyundaiSSO": {
+    "wantToLogBackIn": "¿Desea volver a iniciar sesión?",
+    "logBackDescription": "Visite el portal de concesionarios de Hyundai (HyundaiDealer.com) e inicie sesión con el enlace del Programa de lubricantes de Hyundai.",
+    "geneisilogBackDescription": "Visite el portal de concesionarios de Hyundai (HyundaiDealer.com) e inicie sesión con el enlace del Programa de lubricantes de Hyundai."
+  }
+}
