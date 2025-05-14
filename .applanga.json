@@ -5,7 +5,7 @@
       "source": [
         {
           "path": "./common.json",
-          "file_format": "i18next_json",
+          "file_format": "nested_json",
           "tag": "JSON1",
           "language": "en"
         },
@@ -23,6 +23,7 @@
             "KEY": 0,
             "en": 1
           },
+          "excludeHeaderRow": true,
           "language": "en"
         }
       ]
@@ -30,15 +31,15 @@
     "pull": {
       "target": [
         {
-          "path": "./<language>_File1.json",
-          "file_format": "i18next_json",
+          "path": "./<language>.common.json",
+          "file_format": "nested_json",
           "tag": "JSON1",
           "exclude_languages": [
             "en"
           ]
         },
         {
-          "path": "./<language>_File2.properties",
+          "path": "./<language>.profile.properties",
           "file_format": "java_properties",
           "tag": "Prop1",
           "exclude_languages": [
@@ -46,7 +47,7 @@
           ]
         },
         {
-          "path": "./<language>_File3.csv",
+          "path": "./<language>.rolesAndPrivileges.csv",
           "file_format": "csv",
           "tag": "CSV1",
           "excludeHeaderRow": true,
