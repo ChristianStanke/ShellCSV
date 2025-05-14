@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - common.json
+      - createusers.json
       - profile.properties
       - rolesAndPrivileges.csv
   workflow_dispatch:
