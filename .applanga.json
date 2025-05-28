@@ -10,18 +10,6 @@
           "language": "en"
         },
         {
-          "file_format": "csv",
-          "path": "./Countries_en.csv",
-          "tag": "CSV2",
-          "key_prefix": "Countries-",
-          "excludeHeaderRow": false,
-          "columnDescription": {
-            "KEY": 0,
-            "en": 1
-          },
-          "language": "en"
-        },
-        {
           "path": "./createusers.json",
           "file_format": "react_nested_json",
           "tag": "JSON2",
@@ -43,7 +31,20 @@
           },
           "excludeHeaderRow": false,
           "language": "en"
+        },
+        {
+          "file_format": "csv",
+          "path": "./Countries_en.csv",
+          "tag": "CSV2",
+          "key_prefix": "Countries-",
+          "excludeHeaderRow": false,
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "language": "en"
         }
+	
       ]
     },
     "pull": {
