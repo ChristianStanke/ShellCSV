@@ -15,7 +15,7 @@
           "tag": "CSV2",
           "key_prefix": "Countries-",
           "excludeHeaderRow": false,
-          "columnDescription": {
+          "columnDescription_err": {
             "KEY": 0,
             "en": 1
           },
