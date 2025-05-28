@@ -10,14 +10,15 @@
           "language": "en"
         },
         {
-          "path": "./Countries_en.csv",
           "file_format": "csv",
+          "path": "./Countries_en.csv",
           "tag": "CSV2",
+          "key_prefix": "Countries-",
+          "excludeHeaderRow": true,
           "columnDescription": {
             "KEY": 0,
             "en": 1
           },
-          "excludeHeaderRow": true,
           "language": "en"
         },
         {
