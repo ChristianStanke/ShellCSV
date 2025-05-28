@@ -17,7 +17,7 @@
             "KEY": 0,
             "en": 1
           },
-          "excludeHeaderRow": true,
+          "excludeHeaderRow": false,
           "language": "en"
         },
         {
