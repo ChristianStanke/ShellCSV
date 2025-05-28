@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - common.json
+      - Countries_en.csv
       - createusers.json
       - profile.properties
       - rolesAndPrivileges.csv
