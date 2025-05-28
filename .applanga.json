@@ -10,6 +10,17 @@
           "language": "en"
         },
         {
+          "path": "./Countries_en.csv",
+          "file_format": "csv",
+          "tag": "CSV2",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        },
+        {
           "path": "./createusers.json",
           "file_format": "react_nested_json",
           "tag": "JSON2",
@@ -40,6 +51,16 @@
           "path": "./<language>.common.json",
           "file_format": "nested_json",
           "tag": "JSON1",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./Countries_<language>.csv",
+          "file_format": "csv",
+          "tag": "CSV2",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
           "exclude_languages": [
             "en"
           ]
