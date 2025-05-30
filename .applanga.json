@@ -37,7 +37,7 @@
           "path": "./Countries_en.csv",
           "tag": "CSV2",
           "key_prefix": "Countries-",
-          "excludeHeaderRow": false,
+          "excludeHeaderRow": true,
           "columnDescription": {
             "KEY": 0,
             "en": 1
@@ -61,6 +61,7 @@
           "path": "./Countries_<language>.csv",
           "file_format": "csv",
           "tag": "CSV2",
+		"key_prefix": "Countries-",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
 	 "columnDescription": {
