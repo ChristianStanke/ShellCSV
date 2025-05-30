@@ -61,6 +61,7 @@
           "path": "./Countries_<language>.csv",
           "file_format": "csv",
           "tag": "CSV2",
+		"key_prefix": "Countries-",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
 	 "columnDescription": {
