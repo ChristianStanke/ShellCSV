@@ -37,7 +37,7 @@
           "path": "./Countries_en.csv",
           "tag": "CSV2",
           "key_prefix": "Countries-",
-          "excludeHeaderRow": false,
+          "excludeHeaderRow": true,
           "columnDescription": {
             "KEY": 0,
             "en": 1
