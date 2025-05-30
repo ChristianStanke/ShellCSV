@@ -63,6 +63,10 @@
           "tag": "CSV2",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
+	 "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },	
           "exclude_languages": [
             "en"
           ]
@@ -89,6 +93,10 @@
           "tag": "CSV1",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
+		 "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
           "exclude_languages": [
             "en"
           ]
