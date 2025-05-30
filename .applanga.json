@@ -27,7 +27,7 @@
           "tag": "CSV1",
           "columnDescription": {
             "KEY": 0,
-            "es": 1
+            "en": 1
           },
           "excludeHeaderRow": false,
           "language": "en"
@@ -40,7 +40,7 @@
           "excludeHeaderRow": false,
           "columnDescription": {
             "KEY": 0,
-            "es": 1
+            "en": 1
           },
           "language": "en"
         }
@@ -65,7 +65,7 @@
           "excludeBaseLang": true,
 	 "columnDescription": {
             "KEY": 0,
-            "en": 1
+            "es": 1
           },	
           "exclude_languages": [
             "en"
@@ -95,7 +95,7 @@
           "excludeBaseLang": true,
 		 "columnDescription": {
             "KEY": 0,
-            "en": 1
+            "es": 1
           },
           "exclude_languages": [
             "en"
