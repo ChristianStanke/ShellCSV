@@ -64,21 +64,21 @@
     "category": {
       "title": "نتيجة {{count}} لـ {{query}}",
       "title_one": "نتيجة {{count}} لـ {{query}}",
-      "title_other": "نتائج {{count}} لـ {{query}}"
+      "title_other": "{{count}} نتائج لـ {{query}}"
     },
     "checkout": {
       "title": "تسجيل المغادرة {{count}} من العناصر",
       "title_one": "تسجيل المغادرة {{count}} من العناصر",
-      "title_other": "تسجيل خروج {{count}} من العناصر"
+      "title_other": "عناصر الدفع {{count}} "
     },
     "search": {
       "title": "نتيجة {{count}} لـ \"{{query}}\"",
       "findProductTitle": "نتيجة {{count}} للكوبون \"{{coupon}}\"",
       "page_title": "نتائج البحث عن \"{{query}}\"",
       "title_one": "نتيجة {{count}} لـ \"{{query}}\"",
-      "title_other": "نتائج {{count}} لـ \"{{query}}\"",
+      "title_other": "{{count}} نتائج لـ \"{{query}}\"",
       "findProductTitle_one": "نتيجة {{count}} للكوبون \"{{coupon}}\"",
-      "findProductTitle_other": "نتائج {{count}} للكوبون \"{{coupon}}\""
+      "findProductTitle_other": "{{count}} نتائج القسيمة PPP\"{{coupon}}\""
     },
     "product": {
       "description": "{{description}}",
@@ -204,7 +204,7 @@
     "total": "{{total}}",
     "count": "{{count}}",
     "item_one": "{{count}} عنصر موجود حاليًا في عربة التسوق الخاصة بك",
-    "item_other": "{{count}} من العناصر موجودة حاليًا في عربة التسوق الخاصة بك"
+    "item_other": "{{count}} العناصر الموجودة حاليًا في عربة تسوقك"
   },
   "miniLogin": {
     "userGreeting": "مرحبًا، {{name}}",
