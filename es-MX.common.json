@@ -62,15 +62,23 @@
   },
   "pageMetaResolver": {
     "category": {
-      "title": "Resultado de {{count}} para {{query}}"
+      "title": "Resultado de {{count}} para {{query}}",
+      "title_one": "Resultado de {{count}} para {{query}}",
+      "title_other": "{{count}} resultados para {{query}}"
     },
     "checkout": {
-      "title": "Elemento de pago {{count}}"
+      "title": "Elemento de pago {{count}}",
+      "title_one": "Elemento de pago {{count}}",
+      "title_other": "Pagar {{count}} artículos"
     },
     "search": {
       "title": "Resultado {{count}} para \"{{query}}\"",
       "findProductTitle": "Resultado {{count}} para el cupón \"{{coupon}}\"",
-      "page_title": "Resultados de búsqueda para \"{{query}}\""
+      "page_title": "Resultados de búsqueda para \"{{query}}\"",
+      "title_one": "Resultado {{count}} para \"{{query}}\"",
+      "title_other": "{{count}} resultados para \"{{query}}\"",
+      "findProductTitle_one": "Resultado {{count}} para el cupón \"{{coupon}}\"",
+      "findProductTitle_other": "{{count}} resultados para el cupón \"{{coupon}}\""
     },
     "product": {
       "description": "{{description}}",
@@ -194,7 +202,9 @@
   "miniCart": {
     "item": "{{count}} artículo actualmente en su carrito",
     "total": "{{total}}",
-    "count": "{{count}}"
+    "count": "{{count}}",
+    "item_one": "{{count}} artículo actualmente en su carrito",
+    "item_other": "{{count}} artículos actualmente en su carrito"
   },
   "miniLogin": {
     "userGreeting": "Hola, {{name}}",
